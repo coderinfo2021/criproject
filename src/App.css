@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.3rem;
+  font-size: 1.3em;
+  background-color: #fff9e5;
+  overflow-x: hidden;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  padding: 1rem;
+  width: 100vw;
+}
+.logo-img {
+  width: 250px;
+  height: 100px;
+}
+.install {
+  padding: 20px 1rem;
+  line-height: 1.8rem;
+  /* word-spacing: 2px; */
+}
+
+.second {
+  padding: 20px 1rem;
+
+  /* width: 90vw; */
+}
+.award-img {
+  width: 300px;
+  height: 400px;
+}
+.list {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.awardRes-img {
+  width: 90%;
+  margin-top: 1rem;
+}
+.second p {
+  margin-left: 0.5rem;
+  text-align: justify;
+  width: 95%;
+}
+.items-parent {
+  width: 90vw;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  margin-bottom: 2rem;
+}
+.items {
+  min-width: 600px;
+  height: 100%;
+}
+.item-name {
+  width: 85vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.line-big {
+  border: 1px solid red;
+  background-color: red;
+  width: 90vw;
+  margin: 2rem auto;
+}
+.system {
+  width: 60vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.product-list {
+  list-style-type: none;
+
+  width: 90vw;
+  line-height: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.line {
+  color: red;
+  margin: 0 0.3rem;
+}
+.product-list li:last-child {
+  border: none;
+}
+footer {
+  margin-bottom: 1rem;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 0, 0, 0.842);
+  padding: 1rem;
+  color: white;
+}
+footer div {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+.icon-img {
+  color: white;
+}
+@media screen and (max-width: 297px) {
+  footer {
+    width: 100vw;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 800px) {
+  body {
+    font-size: 1em;
+  }
+  section {
+    /* border: 1px solid black; */
+    display: flex;
+    height: 680px;
+    width: 100vw;
+  }
+  .first {
+    width: 45%;
+  }
+  .award-img {
+    height: 600px;
+    width: 400px;
+  }
+  .second {
+    width: 55%;
+    /* border: 1px solid red; */
+    padding-top: 0;
+  }
+  .items {
+    width: 75vw;
+  }
+  .line {
+    width: 95vw;
+  }
+  .product-list {
+    justify-content: center;
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+    width: 95vw;
+  }
+  .items-parent {
+    overflow: hidden;
+  }
+  /* .items {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+}
