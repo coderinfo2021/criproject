@@ -122,6 +122,11 @@ footer div {
     width: 100vw;
     margin: 0;
   }
+  .product-list {
+    width: 100vw;
+    align-items: flex-start;
+    padding-left: 1rem;
+  }
 }
 @media screen and (min-width: 800px) {
   body {
