@@ -84,24 +84,22 @@ body {
 }
 
 .product-list {
-  list-style-type: none;
-
   width: 90vw;
-  line-height: 2rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2rem;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 2rem;
+  font-size: small;
 }
 
 .line {
   color: red;
   margin: 0 0.3rem;
 }
-.product-list li:last-child {
-  border: none;
-}
+
 footer {
   margin-bottom: 1rem;
   width: 90vw;
@@ -164,9 +162,8 @@ footer div {
   .items-parent {
     overflow: hidden;
   }
-  /* .items {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  } */
+  .product-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
